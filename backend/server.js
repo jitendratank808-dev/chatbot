@@ -56,7 +56,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://6917724f07d25ae4e87d7037--prismatic-dango-b3125d.netlify.app/",
+    origin: "https://chatbot-1-w7qi.onrender.com",
     // credentials: true,
   },
 });
